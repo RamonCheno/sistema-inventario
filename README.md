@@ -8,8 +8,8 @@ Monorepo compuesto por dos repositorios independientes enlazados como submódulo
 
 | Carpeta | Repositorio | Descripción |
 |---|---|---|
-| `backend/` | [sistema-inventario-ws](https://github.com/RamonCheno/sistema-inventario-ws) | Servicio WCF SOAP en C# |
-| `frontend/` | _próximamente_ | Aplicación React + TypeScript |
+| `sistema-inventario-ws/` | [sistema-inventario-ws](https://github.com/RamonCheno/sistema-inventario-ws) | Servicio WCF SOAP en C# |
+| `sistema-inventario-ui/` | [sistema-inventario-ui](https://github.com/RamonCheno/sistema-inventario-ui) | Aplicación React + TypeScript |
 
 ## Stack
 
@@ -41,8 +41,8 @@ git submodule update --init --recursive
 
 ```
 sistema-inventario/
-├── backend/     ← submódulo: sistema-inventario-ws (WCF SOAP)
-└── frontend/    ← submódulo: sistema-inventario-web (React)
+├── sistema-inventario-ws/   ← submódulo: sistema-inventario-ws (WCF SOAP)
+└── sistema-inventario-ui/   ← submódulo: sistema-inventario-ui (React)
 ```
 
 ## Contexto
