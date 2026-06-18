@@ -1,3 +1,6 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/RamonCheno/sistema-inventario-ws.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/RamonCheno/sistema-inventario-ui.git
