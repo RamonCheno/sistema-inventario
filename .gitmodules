@@ -2,5 +2,5 @@
 	path = sistema-inventario-ws
 	url = https://github.com/RamonCheno/sistema-inventario-ws.git
 [submodule "frontend"]
-	path = frontend
+	path = sistema-inventario-ui
 	url = https://github.com/RamonCheno/sistema-inventario-ui.git
