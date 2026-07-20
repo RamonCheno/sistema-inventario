@@ -41,8 +41,10 @@ git submodule update --init --recursive
 
 ```
 sistema-inventario/
-├── sistema-inventario-ws/   ← submódulo: sistema-inventario-ws (WCF SOAP)
-└── sistema-inventario-ui/   ← submódulo: sistema-inventario-ui (React)
+├── sistema-inventario-ws/         ← submódulo: sistema-inventario-ws
+│   ├── wcf-clasico/               ← WCF SOAP clásico (.NET Framework 4.8) — en uso
+│   └── corewcf-net10/             ← CoreWCF sobre .NET 10 (aprendizaje, en progreso)
+└── sistema-inventario-ui/         ← submódulo: sistema-inventario-ui (React)
 ```
 
 ## Contexto
